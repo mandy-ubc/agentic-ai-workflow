@@ -25,7 +25,6 @@ from app.settings import LLM_ASSISTANT_NAME, LLM_TOOL_CHOICE
 from app.stackademy import stackademy_app
 from app.utils import color_text, dump_json_colored
 
-
 setup_logging()
 logger = get_logger(__name__)
 

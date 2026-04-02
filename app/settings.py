@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 from app.const import ToolChoice
 from app.exceptions import ConfigurationException
 
-
 load_dotenv()
 SET_ME_PLEASE = "SET-ME-PLEASE"
 

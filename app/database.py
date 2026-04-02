@@ -17,7 +17,6 @@ from app.settings import (
     MYSQL_USER,
 )
 
-
 setup_logging()
 logger = get_logger(__name__)
 

@@ -13,7 +13,6 @@ from app.exceptions import ConfigurationException
 from app.logging_config import get_logger, setup_logging
 from app.utils import color_text
 
-
 setup_logging()
 logger = get_logger(__name__)
 

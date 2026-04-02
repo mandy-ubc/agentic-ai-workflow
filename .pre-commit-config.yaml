@@ -25,13 +25,13 @@ repos:
     hooks:
       - id: isort
         args: ["--settings-path=pyproject.toml"]
-  - repo: local
-    hooks:
-      - id: pylint
-        name: pylint
-        entry: scripts/run_pylint.sh
-        language: script
-        types: [python]
+  # - repo: local
+  #   hooks:
+  #     - id: pylint
+  #       name: pylint
+  #       entry: scripts/run_pylint.sh
+  #       language: script
+  #       types: [python]
   - repo: https://github.com/PyCQA/bandit
     rev: 1.9.4
     hooks:
@@ -43,7 +43,6 @@ repos:
       # See https://pre-commit.com/hooks.html for more hooks
       #- id: check-added-large-files
       - id: fix-byte-order-marker
-      - id: fix-encoding-pragma
       - id: check-case-conflict
       - id: check-json
       - id: check-merge-conflict

@@ -11,7 +11,6 @@ from app.exceptions import ConfigurationException
 from app.logging_config import get_logger
 from app.stackademy import Stackademy
 
-
 logger = get_logger(__name__)
 
 

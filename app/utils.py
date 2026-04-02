@@ -5,7 +5,6 @@ Utility functions for Stackademy.
 
 import json
 
-
 # ANSI color codes
 colors = {
     "blue": "\033[94m",  # Bright blue
